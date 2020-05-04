@@ -8,6 +8,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce
+
 #sudo usermod -aG docker admin                                  # admin 계정의 docker 권한 추가
 seung usermod -aG docker seung
 sudo systemctl start docker && sudo systemctl enable docker    # docker 시작 및 서비스 활성화
